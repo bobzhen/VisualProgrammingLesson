@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: audio2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/audio2.res" /d "_DEBUG" /d "_AFXDLL" "F:\code\graphics\audio\audioREC2\audio2.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP661.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/audio2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\code\graphics\audio\audioREC2\audio2.cpp"
+"F:\code\graphics\audio\audioREC2\audio2Dlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP661.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP662.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/audio2.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\code\graphics\audio\audioREC2\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP662.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP663.bat" with contents
+[
+@echo off
+copyright.bat
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP663.bat"
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+audio2.cpp
+audio2Dlg.cpp
+Generating Code...
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/audio2.pdb" /debug /machine:I386 /out:"Debug/audio2.exe" /pdbtype:sept  .\Debug\audio2.obj .\Debug\audio2Dlg.obj .\Debug\StdAfx.obj .\Debug\audio2.res "
+
+===本程序下载于VC知识库(www.vckbase.com)===
+-------技术支持由UIPower提供(www.uipower.com)------
+......如遇到任何技术问题请发邮件vckbase@vckbase.com......
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+audio2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

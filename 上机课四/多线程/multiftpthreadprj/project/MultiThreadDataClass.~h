@@ -1,0 +1,16 @@
+//---------------------------------------------------------------------------
+
+#ifndef MultiThreadDataClassH
+#define MultiThreadDataClassH
+//---------------------------------------------------------------------------
+#endif
+typedef struct FileTail{
+    bool isOk;
+    String pos;
+    String len;
+    FileTail *next;
+}m_fileTail;
+class MultiThreadDataClass{
+ public:
+    __fastcall MultiThreadDataClass();
+};

@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MultiThread2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MultiThread2.res" /d "_DEBUG" /d "_AFXDLL" "F:\code\winsys\mtask\multitreadsrc1\MultiThread2\MultiThread2.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5EF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MultiThread2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\code\winsys\mtask\multitreadsrc1\MultiThread2\MultiThread2.cpp"
+"F:\code\winsys\mtask\multitreadsrc1\MultiThread2\MultiThread2Dlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5EF.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5F0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MultiThread2.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\code\winsys\mtask\multitreadsrc1\MultiThread2\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5F0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5F1.bat" with contents
+[
+@echo off
+copyright.bat
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5F1.bat"
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MultiThread2.cpp
+MultiThread2Dlg.cpp
+F:\code\winsys\mtask\multitreadsrc1\MultiThread2\MultiThread2Dlg.cpp(182) : error C2664: 'CreateThread' : cannot convert parameter 3 from 'void (int)' to 'unsigned long (__stdcall *)(void *)'
+        None of the functions with this name in scope match the target type
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+MultiThread2.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
